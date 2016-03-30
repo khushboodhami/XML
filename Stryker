@@ -1,0 +1,227 @@
+{
+    "freightinvoiceext": {
+      "envelope": {
+        "senderidentification": "KNPROD",
+        "receiveridentification": "STRYKER_CH",
+        "messagetype": "FRTINV",
+        "messageversion": "01.00",
+        "envelopeidentification": "0000001380",
+        "transmissiondatetime": {
+          "date": "2015-12-15",
+          "time": "16:19:58.0Z"
+        }
+      },
+      "message": {
+        "invoiceheader": {
+          "invoicetype": "S",
+          "invoicenumber": "1037334",
+          "invoicedate": "2015-12-15",
+          "invoiceduedate": null,
+          "creditdebitflag": "D",
+          "invoicetoaddress": {
+            "partyinformation": {
+              "partyname": "STRYKER TRAUMA AG",
+              "partyname_2": null,
+              "street": "BOHNACKERWEG 1",
+              "street_2": null,
+              "pobox": null,
+              "city": "SELZACH",
+              "zipcode": "2545",
+              "stateregioncode": null,
+              "countrycode": "CH",
+              "knaddresscode": null
+            },
+            "accountno": "991008884",
+            "vatno": "CHE101496638"
+          },
+          "invoicedbyaddress": {
+            "partyinformation": {
+              "partyname": "K\\HNE + NAGEL AG",
+              "partyname_2": null,
+              "street": "LOCHACKERSTRASSE",
+              "street_2": null,
+              "pobox": null,
+              "city": "EMBRACH-EMBRAPORT",
+              "zipcode": "8423",
+              "stateregioncode": null,
+              "countrycode": "CH",
+              "knaddresscode": null
+            },
+            "vatno": "CHE105835142"
+          }
+        },
+        "invoicedetails": {
+          "knfilereference": "3300001429702",
+          "invoiceamount": {
+            "value": "88.00",
+            "currency": "CHF"
+          },
+          "vatdetails": {
+            "vattext": "Zero Rated",
+            "vatbasevalue": {
+              "value": "88.00",
+              "currency": "CHF"
+            },
+            "vatvalue": {
+              "value": "0.00",
+              "currency": "CHF"
+            },
+            "vatrate": "0.00"
+          },
+          "chargedetails": [
+            {
+              "chargecode": "D613",
+              "creditdebitflag": "D",
+              "chargedescription": "REGISTRATUR",
+              "chargeamount": {
+                "value": "8.50",
+                "currency": "CHF"
+              },
+              "vatpercentage": "0.00"
+            },
+            {
+              "chargecode": "D624",
+              "creditdebitflag": "D",
+              "chargedescription": "E-DEC",
+              "chargeamount": {
+                "value": "9.50",
+                "currency": "CHF"
+              },
+              "vatpercentage": "0.00"
+            },
+            {
+              "chargecode": "D900",
+              "creditdebitflag": "D",
+              "chargedescription": "IMPORT ZOLLABFERTIGUNG",
+              "chargeamount": {
+                "value": "70.00",
+                "currency": "CHF"
+              },
+              "vatpercentage": "0.00"
+            }
+          ],
+          "addressinformation": [
+            {
+              "addresstype": "SH",
+              "partyinformation": {
+                "partyname": "SANDVIK P  P ZN DER",
+                "partyname_2": "SMT DEUTSCHLAND GMBH",
+                "street": "DAMMSTR. 27-29",
+                "street_2": null,
+                "pobox": null,
+                "city": "WERTHER",
+                "zipcode": "33824",
+                "stateregioncode": null,
+                "countrycode": "DE",
+                "knaddresscode": null
+              }
+            },
+            {
+              "addresstype": "CN",
+              "partyinformation": {
+                "partyname": "STRYKER GMBH",
+                "partyname_2": null,
+                "street": "BOHNACKERWEG 1",
+                "street_2": null,
+                "pobox": null,
+                "city": "SELZACH",
+                "zipcode": "2545",
+                "stateregioncode": null,
+                "countrycode": "CH",
+                "knaddresscode": null
+              }
+            }
+          ],
+          "referenceinformation": {
+            "addresstype": "SH",
+            "referencetype": "ON",
+            "reference": "180818/0010"
+          },
+          "shipmentinformation": {
+            "totalnoofpackages": "0",
+            "totalnoofpackagesdangerousgoods": "0",
+            "totalgrossweight": {
+              "value": "731.0",
+              "measureunit": "K"
+            },
+            "totalchargeableweight": {
+              "value": "731.0",
+              "measureunit": "K"
+            },
+            "totalgrossvolume": {
+              "value": "1.190",
+              "measureunit": "M"
+            },
+            "totalloadingmeters": {
+              "value": "0.000",
+              "measureunit": "M"
+            },
+            "shippingdetails": {
+              "roadfreight": {
+                "countryoforigin": null,
+                "cityofdeparturename": "WERTHER",
+                "countryoofarrival": "CH",
+                "cityofarrivalname": "SELZACH",
+                "departuredate": "2015-12-10",
+                "arrivaldate": "2015-12-11",
+                "termsofdelivery": "DAP"
+              }
+            },
+            "cargodetails": {
+              "noofpackages": "3",
+              "kindofpacking": "CS",
+              "grossweight": {
+                "value": "731.0",
+                "measureunit": "K"
+              },
+              "chargeableweight": {
+                "value": "0.0",
+                "measureunit": "K"
+              },
+              "grossvolume": {
+                "value": "1.19",
+                "measureunit": "M"
+              },
+              "content": {
+                "marksandnumbers": "240401-403",
+                "cargodescription": "EDELSTAHLROHRE"
+              }
+            }
+          }
+        },
+        "invoicetotals": {
+          "invoicetotalincludingvat": {
+            "value": "88.00",
+            "currency": "CHF",
+            "vatpercentage": "0.00"
+          },
+          "invoicenetliablevat": {
+            "value": "0.00",
+            "currency": "CHF",
+            "vatpercentage": "0.00"
+          },
+          "invoicenetnotliablevat": {
+            "value": "88.00",
+            "currency": "CHF"
+          },
+          "invoicetotalvat": {
+            "value": "0.00",
+            "currency": "CHF",
+            "vatpercentage": "0.00"
+          },
+          "invoicetotalnet": {
+            "value": "88.00",
+            "currency": "CHF"
+          }
+        }
+      }
+    },
+    "trax": {
+      "file_id": {
+        "_handle": {}
+      },
+      "fileName": "Stryker.xml",
+      "fileReceived": "2016-03-28T23:27:51.000Z",
+      "fileProcessed": "2016-03-28T23:28:16.181Z"
+    }
+  }

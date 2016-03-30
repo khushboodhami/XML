@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<FreightInvoiceExt>
+   <Envelope>
+      <SenderIdentification>FRPAR02</SenderIdentification>
+      <ReceiverIdentification>FRPAR57</ReceiverIdentification>
+      <MessageType>FRTINV</MessageType>
+      <MessageVersion>01.00</MessageVersion>
+      <EnvelopeIdentification>0002</EnvelopeIdentification>
+      <TransmissionDateTime>
+         <Date>2016-01-27</Date>
+         <Time>22:35:17.0Z</Time>
+      </TransmissionDateTime>
+   </Envelope>
+   <Message>
+      <InvoiceHeader>
+         <InvoiceType>S</InvoiceType>
+         <InvoiceNumber>CDG0326402</InvoiceNumber>
+         <InvoiceDate>2016-01-26</InvoiceDate>
+         <InvoiceDueDate>2016-02-25</InvoiceDueDate>
+         <CreditDebitFlag>D</CreditDebitFlag>
+         <InvoiceToAddress>
+            <PartyInformation>
+               <PartyName>SANOFI PASTEUR</PartyName>
+               <PartyName_2>ATTN: MR VILLION STEPHANE</PartyName_2>
+               <Street>2 AVENUE PONT PASTEUR</Street>
+               <Street_2>BP 7046</Street_2>
+               <City>LYON</City>
+               <CountryCode>FR</CountryCode>
+               <KNAddressCode>AVENLYO01</KNAddressCode>
+            </PartyInformation>
+            <AccountNo>G001423</AccountNo>
+            <VATNo>FRFR 54 349505370</VATNo>
+         </InvoiceToAddress>
+         <InvoicedByAddress>
+            <PartyInformation>
+               <PartyName>KUEHNE + NAGEL</PartyName>
+               <Street>CARGO 4 - BAT 3540 - 24 RUE DU MIDI</Street>
+               <Street_2>FR/RA/07005-08/0415</Street_2>
+               <City>ROISSY CH DE GAUL</City>
+               <CountryCode>FR</CountryCode>
+               <KNAddressCode>KN CDG FA</KNAddressCode>
+            </PartyInformation>
+            <VATNo>FRFR 52 333583466</VATNo>
+         </InvoicedByAddress>
+      </InvoiceHeader>
+      <InvoiceDetails>
+         <KNFileReference>1210-1731-601.015</KNFileReference>
+         <TypeOfTransport>40</TypeOfTransport>
+         <InvoiceAmount>
+            <Value>5924.39</Value>
+            <Currency>EUR</Currency>
+         </InvoiceAmount>
+         <VATDetails>
+            <VATText>Normal export</VATText>
+            <VATBaseValue>
+               <Value>5924.39</Value>
+               <Currency>EUR</Currency>
+            </VATBaseValue>
+            <VATValue>
+               <Value>0.00</Value>
+               <Currency>EUR</Currency>
+            </VATValue>
+            <VATRate>0.00</VATRate>
+         </VATDetails>
+         <ChargeDetails>
+            <ChargeCode>P02</ChargeCode>
+            <CreditDebitFlag>D</CreditDebitFlag>
+            <ChargeDescription>FUEL</ChargeDescription>
+            <ChargeAmount>
+               <Value>1914.80</Value>
+               <Currency>EUR</Currency>
+            </ChargeAmount>
+            <VATPercentage>0.00</VATPercentage>
+            <ChargeRemarks/>
+            <CalculationQuantity>
+               <Value>2393.500</Value>
+               <UOM>KGS</UOM>
+            </CalculationQuantity>
+            <CalculationRate>0.80</CalculationRate>
+         </ChargeDetails>
+         <ChargeDetails>
+            <ChargeCode>P03</ChargeCode>
+            <CreditDebitFlag>D</CreditDebitFlag>
+            <ChargeDescription>CARRIER SECURITY</ChargeDescription>
+            <ChargeAmount>
+               <Value>240.00</Value>
+               <Currency>EUR</Currency>
+            </ChargeAmount>
+            <VATPercentage>0.00</VATPercentage>
+            <ChargeRemarks/>
+            <CalculationQuantity>
+               <Value>2393.500</Value>
+               <UOM>KGS</UOM>
+            </CalculationQuantity>
+            <CalculationRate>0.12</CalculationRate>
+         </ChargeDetails>
+         <ChargeDetails>
+            <ChargeCode>C01</ChargeCode>
+            <CreditDebitFlag>D</CreditDebitFlag>
+            <ChargeDescription>ENLEVEMENT</ChargeDescription>
+            <ChargeAmount>
+               <Value>200.00</Value>
+               <Currency>EUR</Currency>
+            </ChargeAmount>
+            <VATPercentage>0.00</VATPercentage>
+            <ChargeRemarks/>
+         </ChargeDetails>
+         <ChargeDetails>
+            <ChargeCode>H01</ChargeCode>
+            <CreditDebitFlag>D</CreditDebitFlag>
+            <ChargeDescription>HANDLING</ChargeDescription>
+            <ChargeAmount>
+               <Value>180.00</Value>
+               <Currency>EUR</Currency>
+            </ChargeAmount>
+            <VATPercentage>0.00</VATPercentage>
+            <ChargeRemarks/>
+            <CalculationQuantity>
+               <Value>2393.500</Value>
+               <UOM>KGS</UOM>
+            </CalculationQuantity>
+         </ChargeDetails>
+         <ChargeDetails>
+            <ChargeCode>A01</ChargeCode>
+            <CreditDebitFlag>D</CreditDebitFlag>
+            <ChargeDescription>AIRFREIGHT</ChargeDescription>
+            <ChargeAmount>
+               <Value>2852.15</Value>
+               <Currency>EUR</Currency>
+            </ChargeAmount>
+            <VATPercentage>0.00</VATPercentage>
+            <ChargeRemarks/>
+            <CalculationQuantity>
+               <Value>4074.500</Value>
+               <UOM>KGS</UOM>
+            </CalculationQuantity>
+            <CalculationRate>0.70</CalculationRate>
+         </ChargeDetails>
+         <ChargeDetails>
+            <ChargeCode>A13</ChargeCode>
+            <CreditDebitFlag>D</CreditDebitFlag>
+            <ChargeDescription>FRAIS LTA</ChargeDescription>
+            <ChargeAmount>
+               <Value>22.00</Value>
+               <Currency>EUR</Currency>
+            </ChargeAmount>
+            <VATPercentage>0.00</VATPercentage>
+            <ChargeRemarks/>
+            <CalculationQuantity>
+               <Value>4074.500</Value>
+               <UOM>KGS</UOM>
+            </CalculationQuantity>
+         </ChargeDetails>
+         <ChargeDetails>
+            <ChargeCode>H10</ChargeCode>
+            <CreditDebitFlag>D</CreditDebitFlag>
+            <ChargeDescription>Check Pharma Product</ChargeDescription>
+            <ChargeAmount>
+               <Value>14.00</Value>
+               <Currency>EUR</Currency>
+            </ChargeAmount>
+            <VATPercentage>0.00</VATPercentage>
+            <ChargeRemarks/>
+            <CalculationQuantity>
+               <Value>4074.500</Value>
+               <UOM>KGS</UOM>
+            </CalculationQuantity>
+         </ChargeDetails>
+         <ChargeDetails>
+            <ChargeCode>P04</ChargeCode>
+            <CreditDebitFlag>D</CreditDebitFlag>
+            <ChargeDescription>A-AMS FEE</ChargeDescription>
+            <ChargeAmount>
+               <Value>12.50</Value>
+               <Currency>EUR</Currency>
+            </ChargeAmount>
+            <VATPercentage>0.00</VATPercentage>
+            <ChargeRemarks/>
+            <CalculationQuantity>
+               <Value>4074.500</Value>
+               <UOM>KGS</UOM>
+            </CalculationQuantity>
+         </ChargeDetails>
+         <ChargeDetails>
+            <ChargeCode>S02</ChargeCode>
+            <CreditDebitFlag>D</CreditDebitFlag>
+            <ChargeDescription>X-RAY FEE</ChargeDescription>
+            <ChargeAmount>
+               <Value>488.94</Value>
+               <Currency>EUR</Currency>
+            </ChargeAmount>
+            <VATPercentage>0.00</VATPercentage>
+            <ChargeRemarks/>
+            <CalculationQuantity>
+               <Value>4074.500</Value>
+               <UOM>KGS</UOM>
+            </CalculationQuantity>
+            <CalculationRate>0.12</CalculationRate>
+         </ChargeDetails>
+         <AddressInformation>
+            <AddressType>SH</AddressType>
+            <PartyInformation>
+               <PartyName>SANOFI PASTEUR</PartyName>
+               <Street>2 AVENUE PONT PASTEUR</Street>
+               <Street_2>BP 7046</Street_2>
+               <City>LYON</City>
+               <CountryCode>FR</CountryCode>
+               <KNAddressCode>AVENLYO01</KNAddressCode>
+            </PartyInformation>
+         </AddressInformation>
+         <AddressInformation>
+            <AddressType>CN</AddressType>
+            <PartyInformation>
+               <PartyName>SANOFI AVENTIS HONG KONG LIMITED</PartyName>
+               <Street>UNITS 706-710, LEVEL 7, CORE C</Street>
+               <Street_2>CYBERPORT 3, 100 CYBERPORT ROAD</Street_2>
+               <City>HONG KONG</City>
+               <CountryCode>HK</CountryCode>
+               <KNAddressCode>SANOHON05</KNAddressCode>
+            </PartyInformation>
+         </AddressInformation>
+         <ReferenceInformation>
+            <AddressType>CU</AddressType>
+            <ReferenceType>DQ</ReferenceType>
+            <Reference>0002043695</Reference>
+         </ReferenceInformation>
+         <ReferenceInformation>
+            <AddressType>CU</AddressType>
+            <ReferenceType>*WR</ReferenceType>
+            <Reference>VDR</Reference>
+         </ReferenceInformation>
+         <ReferenceInformation>
+            <AddressType>CU</AddressType>
+            <ReferenceType>ON</ReferenceType>
+            <Reference>4511022329</Reference>
+         </ReferenceInformation>
+         <ReferenceInformation>
+            <AddressType>CU</AddressType>
+            <ReferenceType>O06</ReferenceType>
+            <Reference>ANNIE JAVIN</Reference>
+         </ReferenceInformation>
+         <ReferenceInformation>
+            <AddressType>CU</AddressType>
+            <ReferenceType>ZZZ</ReferenceType>
+            <Reference>80616387</Reference>
+         </ReferenceInformation>
+         <ReferenceInformation>
+            <AddressType>CU</AddressType>
+            <ReferenceType>ZZZ</ReferenceType>
+            <Reference>80617715</Reference>
+         </ReferenceInformation>
+         <ReferenceInformation>
+            <AddressType>CU</AddressType>
+            <ReferenceType>ZZZ</ReferenceType>
+            <Reference>80618852</Reference>
+         </ReferenceInformation>
+         <ReferenceInformation>
+            <AddressType>SH</AddressType>
+            <ReferenceType>DQ</ReferenceType>
+            <Reference>0002043695</Reference>
+         </ReferenceInformation>
+         <ReferenceInformation>
+            <AddressType>SH</AddressType>
+            <ReferenceType>*WR</ReferenceType>
+            <Reference>VDR</Reference>
+         </ReferenceInformation>
+         <ReferenceInformation>
+            <AddressType>SH</AddressType>
+            <ReferenceType>ON</ReferenceType>
+            <Reference>4511022329</Reference>
+         </ReferenceInformation>
+         <ReferenceInformation>
+            <AddressType>SH</AddressType>
+            <ReferenceType>O06</ReferenceType>
+            <Reference>ANNIE JAVIN</Reference>
+         </ReferenceInformation>
+         <ReferenceInformation>
+            <AddressType>SH</AddressType>
+            <ReferenceType>ZZZ</ReferenceType>
+            <Reference>80616387</Reference>
+         </ReferenceInformation>
+         <ReferenceInformation>
+            <AddressType>SH</AddressType>
+            <ReferenceType>ZZZ</ReferenceType>
+            <Reference>80617715</Reference>
+         </ReferenceInformation>
+         <ReferenceInformation>
+            <AddressType>SH</AddressType>
+            <ReferenceType>ZZZ</ReferenceType>
+            <Reference>80618852</Reference>
+         </ReferenceInformation>
+         <InvoiceRemarks>Nos factures sont payables par virement dans la monnaie convenue</InvoiceRemarks>
+         <InvoiceRemarks>contractuellement à :</InvoiceRemarks>
+         <InvoiceRemarks>KUEHNE + NAGEL - ZAC des hauts de Ferrieres - 77164 Ferrieres en Brie</InvoiceRemarks>
+         <InvoiceRemarks>N° de compte DEUTSCHE Bank AG : 17789 00001 10510152000 54</InvoiceRemarks>
+         <InvoiceRemarks>CONFORMÉMENT AUX DISPOSITIONS DE L'ARTICLE L441-6 DU CODE DE COMMERCE,</InvoiceRemarks>
+         <InvoiceRemarks>TOUT RETARD DE PAIEMENT ENTRAÎNERA AUTOMATIQUEMENT L'APPLICATION D'UN</InvoiceRemarks>
+         <InvoiceRemarks>INTÉRÊT ÉGAL AU TAUX D'INTÉRÊT APPLIQUÉ PAR LA BANQUE CENTRALE EUROPÉE</InvoiceRemarks>
+         <InvoiceRemarks>À SON OPÉRATION DE REFINANCEMENT LA PLUS RÉCENTE MAJORÉ DE 10 POINTS D</InvoiceRemarks>
+         <InvoiceRemarks>POURCENTAGE, AUQUEL S'AJOUTE LE RÈGLEMENT DE L'INDEMNITÉ FORFAITAIRE P</InvoiceRemarks>
+         <InvoiceRemarks>FRAIS DE RECOUVREMENT FIXÉS À 40 EUROS OU,LORSQUE LES FRAIS DE RECOUVR</InvoiceRemarks>
+         <InvoiceRemarks>EXPOSÉS SONT SUPÉRIEURS, UNE INDEMNISATION COMPLÉMENTAIRE,SUR JUSTIFIC</InvoiceRemarks>
+         <ShipmentInformation>
+            <TotalNoOfPackages>97</TotalNoOfPackages>
+            <TotalNoOfPackagesDangerousGoods>0</TotalNoOfPackagesDangerousGoods>
+            <TotalGrossWeight>
+               <Value>2393.50</Value>
+               <MeasureUnit>K</MeasureUnit>
+            </TotalGrossWeight>
+            <TotalChargeableWeight>
+               <Value>4074.50</Value>
+               <MeasureUnit>K</MeasureUnit>
+            </TotalChargeableWeight>
+            <TotalGrossVolume>
+               <Value>24.444</Value>
+               <MeasureUnit>M</MeasureUnit>
+            </TotalGrossVolume>
+            <ShippingDetails>
+               <Airfreight>
+                  <CountryOfOrigin>FR</CountryOfOrigin>
+                  <AirportOfDeparture>FRCDG</AirportOfDeparture>
+                  <ETSDate>2016-01-25</ETSDate>
+                  <ETADate>2016-01-26</ETADate>
+                  <AirportOfArrival>HKHKG</AirportOfArrival>
+                  <CountryOfDestination>HK</CountryOfDestination>
+                  <FlightNo>CX 278  25</FlightNo>
+                  <AWBNo>160-23794746</AWBNo>
+                  <HAWBNo>16023794746</HAWBNo>
+                  <CarrierCode>CX</CarrierCode>
+                  <TermsOfDelivery>CIP</TermsOfDelivery>
+                  <InsuranceCode>2</InsuranceCode>
+               </Airfreight>
+            </ShippingDetails>
+            <CargoDetails>
+               <NoOfPackages>000097</NoOfPackages>
+               <KindOfPacking>PCS</KindOfPacking>
+               <GrossVolume>
+                  <Value>244.44</Value>
+                  <MeasureUnit>M</MeasureUnit>
+               </GrossVolume>
+               <Content>
+                  <CargoDescription>HUMAN VACCINES</CargoDescription>
+                  <CargoDescription>NOT RESTRICTED</CargoDescription>
+                  <CargoDescription>4511022329</CargoDescription>
+                  <CargoDescription>TYPHIM</CargoDescription>
+                  <CargoDescription>PO 4511021501-4511021856</CargoDescription>
+               </Content>
+            </CargoDetails>
+            <ShipmentRemarks>Nos factures sont payables par virement dans la monnaie convenue</ShipmentRemarks>
+            <ShipmentRemarks>contractuellement à :</ShipmentRemarks>
+            <ShipmentRemarks>KUEHNE + NAGEL - ZAC des hauts de Ferrieres - 77164 Ferrieres en Brie</ShipmentRemarks>
+            <ShipmentRemarks>N° de compte DEUTSCHE Bank AG : 17789 00001 10510152000 54</ShipmentRemarks>
+            <ShipmentRemarks>CONFORMÉMENT AUX DISPOSITIONS DE L'ARTICLE L441-6 DU CODE DE COMMERCE,</ShipmentRemarks>
+            <ShipmentRemarks>TOUT RETARD DE PAIEMENT ENTRAÎNERA AUTOMATIQUEMENT L'APPLICATION D'UN</ShipmentRemarks>
+            <ShipmentRemarks>INTÉRÊT ÉGAL AU TAUX D'INTÉRÊT APPLIQUÉ PAR LA BANQUE CENTRALE EUROPÉE</ShipmentRemarks>
+            <ShipmentRemarks>À SON OPÉRATION DE REFINANCEMENT LA PLUS RÉCENTE MAJORÉ DE 10 POINTS D</ShipmentRemarks>
+            <ShipmentRemarks>POURCENTAGE, AUQUEL S'AJOUTE LE RÈGLEMENT DE L'INDEMNITÉ FORFAITAIRE P</ShipmentRemarks>
+            <ShipmentRemarks>FRAIS DE RECOUVREMENT FIXÉS À 40 EUROS OU,LORSQUE LES FRAIS DE RECOUVR</ShipmentRemarks>
+            <ShipmentRemarks>EXPOSÉS SONT SUPÉRIEURS, UNE INDEMNISATION COMPLÉMENTAIRE,SUR JUSTIFIC</ShipmentRemarks>
+         </ShipmentInformation>
+      </InvoiceDetails>
+      <InvoiceTotals>
+         <InvoiceTotalIncludingVAT>
+            <Value>5924.39</Value>
+            <Currency>EUR</Currency>
+         </InvoiceTotalIncludingVAT>
+         <InvoiceNetLiableVAT>
+            <Value>0.00</Value>
+            <Currency>EUR</Currency>
+            <VATPercentage>0.00</VATPercentage>
+         </InvoiceNetLiableVAT>
+         <InvoiceNetNotLiableVAT>
+            <Value>5924.39</Value>
+            <Currency>EUR</Currency>
+         </InvoiceNetNotLiableVAT>
+         <InvoiceTotalVAT>
+            <Value>0.00</Value>
+            <Currency>EUR</Currency>
+         </InvoiceTotalVAT>
+         <InvoiceTotalNet>
+            <Value>5924.39</Value>
+            <Currency>EUR</Currency>
+         </InvoiceTotalNet>
+      </InvoiceTotals>
+   </Message>
+</FreightInvoiceExt>
